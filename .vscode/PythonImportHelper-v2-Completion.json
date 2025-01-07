@@ -16,6 +16,46 @@
         "documentation": {}
     },
     {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "status",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -72,6 +112,46 @@
         "documentation": {}
     },
     {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -80,27 +160,68 @@
         "documentation": {}
     },
     {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "models",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "importPath": "models",
+        "description": "models",
+        "detail": "models",
         "documentation": {}
     },
     {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "Todos",
+        "importPath": "models",
+        "description": "models",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "models",
         "documentation": {}
     },
     {
-        "label": "sessionmaker",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "Users",
+        "importPath": "models",
+        "description": "models",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Todos",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Todos",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Users",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "sessionLocal",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "sessionLocal",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
         "documentation": {}
     },
     {
@@ -152,6 +273,62 @@
         "documentation": {}
     },
     {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -176,28 +353,27 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "kind": 6,
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
         "isExtraImport": true,
-        "importPath": "models",
-        "description": "models",
-        "detail": "models",
+        "detail": "pydantic",
         "documentation": {}
     },
     {
-        "label": "Users",
-        "importPath": "models",
-        "description": "models",
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
         "isExtraImport": true,
-        "detail": "models",
+        "detail": "pydantic",
         "documentation": {}
     },
     {
-        "label": "Todos",
-        "importPath": "models",
-        "description": "models",
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
         "isExtraImport": true,
-        "detail": "models",
+        "detail": "passlib.context",
         "documentation": {}
     },
     {
@@ -337,11 +513,63 @@
         "documentation": {}
     },
     {
+        "label": "admin",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "TodoApp.routers.admin",
+        "description": "TodoApp.routers.admin",
+        "peekOfCode": "def get_db():\n    db = sessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndb_dependency = Annotated[Session, Depends(get_db)]\nuser_dependency = Annotated[dict, Depends(get_current_user)]\n@router.get(\"/todo\", status_code=status.HTTP_200_OK)\nasync def read_all(user: user_dependency, db: db_dependency):",
+        "detail": "TodoApp.routers.admin",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "TodoApp.routers.admin",
+        "description": "TodoApp.routers.admin",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/admin\",\n    tags=[\"admin\"],\n)\ndef get_db():\n    db = sessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "TodoApp.routers.admin",
+        "documentation": {}
+    },
+    {
+        "label": "db_dependency",
+        "kind": 5,
+        "importPath": "TodoApp.routers.admin",
+        "description": "TodoApp.routers.admin",
+        "peekOfCode": "db_dependency = Annotated[Session, Depends(get_db)]\nuser_dependency = Annotated[dict, Depends(get_current_user)]\n@router.get(\"/todo\", status_code=status.HTTP_200_OK)\nasync def read_all(user: user_dependency, db: db_dependency):\n    if user is None or user.get(\"user_role\") != \"admin\":\n        raise HTTPException(status_code=401, detail=\"Authentication Failed\")\n    return db.query(Todos).all()\n@router.delete(\"/todo/{todo_id}\", status_code=status.HTTP_204_NO_CONTENT)\nasync def delete_todo(\n    user: user_dependency, db: db_dependency, todo_id: int = Path(gt=0)",
+        "detail": "TodoApp.routers.admin",
+        "documentation": {}
+    },
+    {
+        "label": "user_dependency",
+        "kind": 5,
+        "importPath": "TodoApp.routers.admin",
+        "description": "TodoApp.routers.admin",
+        "peekOfCode": "user_dependency = Annotated[dict, Depends(get_current_user)]\n@router.get(\"/todo\", status_code=status.HTTP_200_OK)\nasync def read_all(user: user_dependency, db: db_dependency):\n    if user is None or user.get(\"user_role\") != \"admin\":\n        raise HTTPException(status_code=401, detail=\"Authentication Failed\")\n    return db.query(Todos).all()\n@router.delete(\"/todo/{todo_id}\", status_code=status.HTTP_204_NO_CONTENT)\nasync def delete_todo(\n    user: user_dependency, db: db_dependency, todo_id: int = Path(gt=0)\n):",
+        "detail": "TodoApp.routers.admin",
+        "documentation": {}
+    },
+    {
         "label": "CreateUserRequest",
         "kind": 6,
         "importPath": "TodoApp.routers.auth",
         "description": "TodoApp.routers.auth",
-        "peekOfCode": "class CreateUserRequest(BaseModel):\n    username: str\n    password: str\n    email: str\n    first_name: str\n    last_name: str\n    role: str = \"user\"\nclass Token(BaseModel):\n    access_token: str\n    token_type: str",
+        "peekOfCode": "class CreateUserRequest(BaseModel):\n    username: str\n    password: str\n    email: str\n    first_name: str\n    last_name: str\n    role: str\nclass Token(BaseModel):\n    access_token: str\n    token_type: str",
         "detail": "TodoApp.routers.auth",
         "documentation": {}
     },
@@ -368,7 +596,7 @@
         "kind": 2,
         "importPath": "TodoApp.routers.auth",
         "description": "TodoApp.routers.auth",
-        "peekOfCode": "def authenticate_user(username: str, password: str, db):\n    user = db.query(Users).filter(Users.username == username).first()\n    if not user:\n        return False\n    if not bcrypt_context.verify(password, user.hashed_password):\n        return False\n    return user\ndef create_access_token(username: str, user_id: int, expires_delta: timedelta):\n    encode = {\"sub\": username, \"id\": user_id}\n    expire = datetime.now(timezone.utc) + expires_delta",
+        "peekOfCode": "def authenticate_user(username: str, password: str, db):\n    user = db.query(Users).filter(Users.username == username).first()\n    if not user:\n        return False\n    if not bcrypt_context.verify(password, user.hashed_password):\n        return False\n    return user\ndef create_access_token(\n    username: str, user_id: int, role: str, expires_delta: timedelta\n):",
         "detail": "TodoApp.routers.auth",
         "documentation": {}
     },
@@ -377,7 +605,7 @@
         "kind": 2,
         "importPath": "TodoApp.routers.auth",
         "description": "TodoApp.routers.auth",
-        "peekOfCode": "def create_access_token(username: str, user_id: int, expires_delta: timedelta):\n    encode = {\"sub\": username, \"id\": user_id}\n    expire = datetime.now(timezone.utc) + expires_delta\n    encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\nasync def get_current_user(token: Annotated[str, Depends(oauth2_bearer)]):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        username: str = payload.get(\"sub\")",
+        "peekOfCode": "def create_access_token(\n    username: str, user_id: int, role: str, expires_delta: timedelta\n):\n    encode = {\"sub\": username, \"id\": user_id, \"role\": role}\n    expire = datetime.now(timezone.utc) + expires_delta\n    encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\nasync def get_current_user(token: Annotated[str, Depends(oauth2_bearer)]):\n    try:",
         "detail": "TodoApp.routers.auth",
         "documentation": {}
     },
@@ -404,7 +632,7 @@
         "kind": 5,
         "importPath": "TodoApp.routers.auth",
         "description": "TodoApp.routers.auth",
-        "peekOfCode": "ALGORITHM = \"HS256\"\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_bearer = OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateUserRequest(BaseModel):\n    username: str\n    password: str\n    email: str\n    first_name: str\n    last_name: str\n    role: str = \"user\"",
+        "peekOfCode": "ALGORITHM = \"HS256\"\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_bearer = OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateUserRequest(BaseModel):\n    username: str\n    password: str\n    email: str\n    first_name: str\n    last_name: str\n    role: str",
         "detail": "TodoApp.routers.auth",
         "documentation": {}
     },
@@ -413,7 +641,7 @@
         "kind": 5,
         "importPath": "TodoApp.routers.auth",
         "description": "TodoApp.routers.auth",
-        "peekOfCode": "bcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_bearer = OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateUserRequest(BaseModel):\n    username: str\n    password: str\n    email: str\n    first_name: str\n    last_name: str\n    role: str = \"user\"\nclass Token(BaseModel):",
+        "peekOfCode": "bcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_bearer = OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateUserRequest(BaseModel):\n    username: str\n    password: str\n    email: str\n    first_name: str\n    last_name: str\n    role: str\nclass Token(BaseModel):",
         "detail": "TodoApp.routers.auth",
         "documentation": {}
     },
@@ -422,7 +650,7 @@
         "kind": 5,
         "importPath": "TodoApp.routers.auth",
         "description": "TodoApp.routers.auth",
-        "peekOfCode": "oauth2_bearer = OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateUserRequest(BaseModel):\n    username: str\n    password: str\n    email: str\n    first_name: str\n    last_name: str\n    role: str = \"user\"\nclass Token(BaseModel):\n    access_token: str",
+        "peekOfCode": "oauth2_bearer = OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateUserRequest(BaseModel):\n    username: str\n    password: str\n    email: str\n    first_name: str\n    last_name: str\n    role: str\nclass Token(BaseModel):\n    access_token: str",
         "detail": "TodoApp.routers.auth",
         "documentation": {}
     },
@@ -431,7 +659,7 @@
         "kind": 5,
         "importPath": "TodoApp.routers.auth",
         "description": "TodoApp.routers.auth",
-        "peekOfCode": "db_dependency = Annotated[Session, Depends(get_db)]\ndef authenticate_user(username: str, password: str, db):\n    user = db.query(Users).filter(Users.username == username).first()\n    if not user:\n        return False\n    if not bcrypt_context.verify(password, user.hashed_password):\n        return False\n    return user\ndef create_access_token(username: str, user_id: int, expires_delta: timedelta):\n    encode = {\"sub\": username, \"id\": user_id}",
+        "peekOfCode": "db_dependency = Annotated[Session, Depends(get_db)]\ndef authenticate_user(username: str, password: str, db):\n    user = db.query(Users).filter(Users.username == username).first()\n    if not user:\n        return False\n    if not bcrypt_context.verify(password, user.hashed_password):\n        return False\n    return user\ndef create_access_token(\n    username: str, user_id: int, role: str, expires_delta: timedelta",
         "detail": "TodoApp.routers.auth",
         "documentation": {}
     },
@@ -440,7 +668,7 @@
         "kind": 6,
         "importPath": "TodoApp.routers.todos",
         "description": "TodoApp.routers.todos",
-        "peekOfCode": "class TodoRequest(BaseModel):\n    title: str = Field(min_length=3)\n    description: str = Field(min_length=3, max_length=100)\n    priority: int = Field(gt=0, lt=6)\n    completed: bool\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def read_all(db: db_dependency):\n    return db.query(Todos).all()\n@router.get(\"/todo/{todo_id}\", status_code=status.HTTP_200_OK)\nasync def read_todo(db: db_dependency, todo_id: int = Path(gt=0)):",
+        "peekOfCode": "class TodoRequest(BaseModel):\n    title: str = Field(min_length=3)\n    description: str = Field(min_length=3, max_length=100)\n    priority: int = Field(gt=0, lt=6)\n    completed: bool\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def read_all(user: user_dependency, db: db_dependency):\n    if user is None:\n        raise HTTPException(status_code=401, detail=\"Authentication Failed!\")\n    return db.query(Todos).filter(Todos.owner_id == user.get(\"id\")).all()",
         "detail": "TodoApp.routers.todos",
         "documentation": {}
     },
@@ -449,7 +677,7 @@
         "kind": 2,
         "importPath": "TodoApp.routers.todos",
         "description": "TodoApp.routers.todos",
-        "peekOfCode": "def get_db():\n    db = sessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndb_dependency = Annotated[Session, Depends(get_db)]\nclass TodoRequest(BaseModel):\n    title: str = Field(min_length=3)\n    description: str = Field(min_length=3, max_length=100)",
+        "peekOfCode": "def get_db():\n    db = sessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndb_dependency = Annotated[Session, Depends(get_db)]\nuser_dependency = Annotated[dict, Depends(get_current_user)]\nclass TodoRequest(BaseModel):\n    title: str = Field(min_length=3)",
         "detail": "TodoApp.routers.todos",
         "documentation": {}
     },
@@ -458,7 +686,7 @@
         "kind": 5,
         "importPath": "TodoApp.routers.todos",
         "description": "TodoApp.routers.todos",
-        "peekOfCode": "router = APIRouter()\ndef get_db():\n    db = sessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndb_dependency = Annotated[Session, Depends(get_db)]\nclass TodoRequest(BaseModel):\n    title: str = Field(min_length=3)",
+        "peekOfCode": "router = APIRouter()\ndef get_db():\n    db = sessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndb_dependency = Annotated[Session, Depends(get_db)]\nuser_dependency = Annotated[dict, Depends(get_current_user)]\nclass TodoRequest(BaseModel):",
         "detail": "TodoApp.routers.todos",
         "documentation": {}
     },
@@ -467,8 +695,71 @@
         "kind": 5,
         "importPath": "TodoApp.routers.todos",
         "description": "TodoApp.routers.todos",
-        "peekOfCode": "db_dependency = Annotated[Session, Depends(get_db)]\nclass TodoRequest(BaseModel):\n    title: str = Field(min_length=3)\n    description: str = Field(min_length=3, max_length=100)\n    priority: int = Field(gt=0, lt=6)\n    completed: bool\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def read_all(db: db_dependency):\n    return db.query(Todos).all()\n@router.get(\"/todo/{todo_id}\", status_code=status.HTTP_200_OK)",
+        "peekOfCode": "db_dependency = Annotated[Session, Depends(get_db)]\nuser_dependency = Annotated[dict, Depends(get_current_user)]\nclass TodoRequest(BaseModel):\n    title: str = Field(min_length=3)\n    description: str = Field(min_length=3, max_length=100)\n    priority: int = Field(gt=0, lt=6)\n    completed: bool\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def read_all(user: user_dependency, db: db_dependency):\n    if user is None:",
         "detail": "TodoApp.routers.todos",
+        "documentation": {}
+    },
+    {
+        "label": "user_dependency",
+        "kind": 5,
+        "importPath": "TodoApp.routers.todos",
+        "description": "TodoApp.routers.todos",
+        "peekOfCode": "user_dependency = Annotated[dict, Depends(get_current_user)]\nclass TodoRequest(BaseModel):\n    title: str = Field(min_length=3)\n    description: str = Field(min_length=3, max_length=100)\n    priority: int = Field(gt=0, lt=6)\n    completed: bool\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def read_all(user: user_dependency, db: db_dependency):\n    if user is None:\n        raise HTTPException(status_code=401, detail=\"Authentication Failed!\")",
+        "detail": "TodoApp.routers.todos",
+        "documentation": {}
+    },
+    {
+        "label": "UserVerification",
+        "kind": 6,
+        "importPath": "TodoApp.routers.users",
+        "description": "TodoApp.routers.users",
+        "peekOfCode": "class UserVerification(BaseModel):\n    password: str\n    new_password: str = Field(min_length=6)\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_user(user: user_dependency, db: db_dependency):\n    if user is None:\n        raise HTTPException(status_code=401, detail=\"Authentication Failed!\")\n    return db.query(Users).filter(Users.id == user.get(\"id\")).first()\n@router.put(\"/password\", status_code=status.HTTP_204_NO_CONTENT)\nasync def change_password(user: user_dependency, db: db_dependency, user_verification: UserVerification):",
+        "detail": "TodoApp.routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "TodoApp.routers.users",
+        "description": "TodoApp.routers.users",
+        "peekOfCode": "def get_db():\n    db = sessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndb_dependency = Annotated[Session, Depends(get_db)]\nuser_dependency = Annotated[dict, Depends(get_current_user)]\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass UserVerification(BaseModel):",
+        "detail": "TodoApp.routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "TodoApp.routers.users",
+        "description": "TodoApp.routers.users",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/user\",\n    tags=[\"user\"],\n)\ndef get_db():\n    db = sessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "TodoApp.routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "db_dependency",
+        "kind": 5,
+        "importPath": "TodoApp.routers.users",
+        "description": "TodoApp.routers.users",
+        "peekOfCode": "db_dependency = Annotated[Session, Depends(get_db)]\nuser_dependency = Annotated[dict, Depends(get_current_user)]\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass UserVerification(BaseModel):\n    password: str\n    new_password: str = Field(min_length=6)\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_user(user: user_dependency, db: db_dependency):\n    if user is None:\n        raise HTTPException(status_code=401, detail=\"Authentication Failed!\")",
+        "detail": "TodoApp.routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "user_dependency",
+        "kind": 5,
+        "importPath": "TodoApp.routers.users",
+        "description": "TodoApp.routers.users",
+        "peekOfCode": "user_dependency = Annotated[dict, Depends(get_current_user)]\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass UserVerification(BaseModel):\n    password: str\n    new_password: str = Field(min_length=6)\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_user(user: user_dependency, db: db_dependency):\n    if user is None:\n        raise HTTPException(status_code=401, detail=\"Authentication Failed!\")\n    return db.query(Users).filter(Users.id == user.get(\"id\")).first()",
+        "detail": "TodoApp.routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt_context",
+        "kind": 5,
+        "importPath": "TodoApp.routers.users",
+        "description": "TodoApp.routers.users",
+        "peekOfCode": "bcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass UserVerification(BaseModel):\n    password: str\n    new_password: str = Field(min_length=6)\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_user(user: user_dependency, db: db_dependency):\n    if user is None:\n        raise HTTPException(status_code=401, detail=\"Authentication Failed!\")\n    return db.query(Users).filter(Users.id == user.get(\"id\")).first()\n@router.put(\"/password\", status_code=status.HTTP_204_NO_CONTENT)",
+        "detail": "TodoApp.routers.users",
         "documentation": {}
     },
     {
@@ -512,7 +803,7 @@
         "kind": 5,
         "importPath": "TodoApp.main",
         "description": "TodoApp.main",
-        "peekOfCode": "app = FastAPI()\nmodels.Base.metadata.create_all(bind=engine)\napp.include_router(auth.router)\napp.include_router(todos.router)",
+        "peekOfCode": "app = FastAPI()\nmodels.Base.metadata.create_all(bind=engine)\napp.include_router(auth.router)\napp.include_router(todos.router)\napp.include_router(admin.router)\napp.include_router(users.router)",
         "detail": "TodoApp.main",
         "documentation": {}
     },
