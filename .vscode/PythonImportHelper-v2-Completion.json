@@ -668,7 +668,7 @@
         "kind": 6,
         "importPath": "TodoApp.routers.todos",
         "description": "TodoApp.routers.todos",
-        "peekOfCode": "class TodoRequest(BaseModel):\n    title: str = Field(min_length=3)\n    description: str = Field(min_length=3, max_length=100)\n    priority: int = Field(gt=0, lt=6)\n    completed: bool\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def read_all(user: user_dependency, db: db_dependency):\n    if user is None:\n        raise HTTPException(status_code=401, detail=\"Authentication Failed!\")\n    return db.query(Todos).filter(Todos.owner_id == user.get(\"id\")).all()",
+        "peekOfCode": "class TodoRequest(BaseModel):\n    title: str = Field(min_length=3)\n    description: str = Field(min_length=3, max_length=100)\n    priority: int = Field(gt=0, lt=6)\n    complete: bool\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def read_all(user: user_dependency, db: db_dependency):\n    if user is None:\n        raise HTTPException(status_code=401, detail=\"Authentication Failed!\")\n    return db.query(Todos).filter(Todos.owner_id == user.get(\"id\")).all()",
         "detail": "TodoApp.routers.todos",
         "documentation": {}
     },
@@ -695,7 +695,7 @@
         "kind": 5,
         "importPath": "TodoApp.routers.todos",
         "description": "TodoApp.routers.todos",
-        "peekOfCode": "db_dependency = Annotated[Session, Depends(get_db)]\nuser_dependency = Annotated[dict, Depends(get_current_user)]\nclass TodoRequest(BaseModel):\n    title: str = Field(min_length=3)\n    description: str = Field(min_length=3, max_length=100)\n    priority: int = Field(gt=0, lt=6)\n    completed: bool\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def read_all(user: user_dependency, db: db_dependency):\n    if user is None:",
+        "peekOfCode": "db_dependency = Annotated[Session, Depends(get_db)]\nuser_dependency = Annotated[dict, Depends(get_current_user)]\nclass TodoRequest(BaseModel):\n    title: str = Field(min_length=3)\n    description: str = Field(min_length=3, max_length=100)\n    priority: int = Field(gt=0, lt=6)\n    complete: bool\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def read_all(user: user_dependency, db: db_dependency):\n    if user is None:",
         "detail": "TodoApp.routers.todos",
         "documentation": {}
     },
@@ -704,7 +704,7 @@
         "kind": 5,
         "importPath": "TodoApp.routers.todos",
         "description": "TodoApp.routers.todos",
-        "peekOfCode": "user_dependency = Annotated[dict, Depends(get_current_user)]\nclass TodoRequest(BaseModel):\n    title: str = Field(min_length=3)\n    description: str = Field(min_length=3, max_length=100)\n    priority: int = Field(gt=0, lt=6)\n    completed: bool\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def read_all(user: user_dependency, db: db_dependency):\n    if user is None:\n        raise HTTPException(status_code=401, detail=\"Authentication Failed!\")",
+        "peekOfCode": "user_dependency = Annotated[dict, Depends(get_current_user)]\nclass TodoRequest(BaseModel):\n    title: str = Field(min_length=3)\n    description: str = Field(min_length=3, max_length=100)\n    priority: int = Field(gt=0, lt=6)\n    complete: bool\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def read_all(user: user_dependency, db: db_dependency):\n    if user is None:\n        raise HTTPException(status_code=401, detail=\"Authentication Failed!\")",
         "detail": "TodoApp.routers.todos",
         "documentation": {}
     },
@@ -767,7 +767,7 @@
         "kind": 5,
         "importPath": "TodoApp.database",
         "description": "TodoApp.database",
-        "peekOfCode": "SQLALCHEMY_DATABASE_URL = \"sqlite:///./todosapp.db\"\nfrom sqlalchemy.orm import sessionmaker\nfrom sqlalchemy.ext.declarative import declarative_base\nengine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False})\nsessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = (\n    \"postgresql://postgres:test1234!@localhost/TodoApplicationDatabase\"\n)\nfrom sqlalchemy.orm import sessionmaker\nfrom sqlalchemy.ext.declarative import declarative_base\nengine = create_engine(SQLALCHEMY_DATABASE_URL)\nsessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()",
         "detail": "TodoApp.database",
         "documentation": {}
     },
@@ -776,7 +776,7 @@
         "kind": 5,
         "importPath": "TodoApp.database",
         "description": "TodoApp.database",
-        "peekOfCode": "engine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False})\nsessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()",
+        "peekOfCode": "engine = create_engine(SQLALCHEMY_DATABASE_URL)\nsessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()",
         "detail": "TodoApp.database",
         "documentation": {}
     },
@@ -821,7 +821,7 @@
         "kind": 6,
         "importPath": "TodoApp.models",
         "description": "TodoApp.models",
-        "peekOfCode": "class Todos(Base):\n    __tablename__ = \"todos\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String)\n    description = Column(String)\n    priority = Column(Integer)\n    completed = Column(Boolean, default=False)\n    owner_id = Column(Integer, ForeignKey(\"users.id\"))",
+        "peekOfCode": "class Todos(Base):\n    __tablename__ = \"todos\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String)\n    description = Column(String)\n    priority = Column(Integer)\n    complete = Column(Boolean, default=False)\n    owner_id = Column(Integer, ForeignKey(\"users.id\"))",
         "detail": "TodoApp.models",
         "documentation": {}
     }
