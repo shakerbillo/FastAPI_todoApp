@@ -1,5 +1,199 @@
 [
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "models",
+        "description": "models",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Todos",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Users",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Todos",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Todos",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Users",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -160,55 +354,6 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "models",
-        "description": "models",
-        "detail": "models",
-        "documentation": {}
-    },
-    {
-        "label": "Todos",
-        "importPath": "models",
-        "description": "models",
-        "isExtraImport": true,
-        "detail": "models",
-        "documentation": {}
-    },
-    {
-        "label": "Users",
-        "importPath": "models",
-        "description": "models",
-        "isExtraImport": true,
-        "detail": "models",
-        "documentation": {}
-    },
-    {
-        "label": "Todos",
-        "importPath": "models",
-        "description": "models",
-        "isExtraImport": true,
-        "detail": "models",
-        "documentation": {}
-    },
-    {
-        "label": "Todos",
-        "importPath": "models",
-        "description": "models",
-        "isExtraImport": true,
-        "detail": "models",
-        "documentation": {}
-    },
-    {
-        "label": "Users",
-        "importPath": "models",
-        "description": "models",
-        "isExtraImport": true,
-        "detail": "models",
-        "documentation": {}
-    },
-    {
         "label": "sessionLocal",
         "importPath": "database",
         "description": "database",
@@ -254,38 +399,6 @@
         "description": "database",
         "isExtraImport": true,
         "detail": "database",
-        "documentation": {}
-    },
-    {
-        "label": "Annotated",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Annotated",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Annotated",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Annotated",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
         "documentation": {}
     },
     {
@@ -441,54 +554,6 @@
         "documentation": {}
     },
     {
-        "label": "create_engine",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
         "label": "declarative_base",
         "importPath": "sqlalchemy.ext.declarative",
         "description": "sqlalchemy.ext.declarative",
@@ -526,6 +591,60 @@
         "description": "routers",
         "isExtraImport": true,
         "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "TodoApp.alembic.versions.bb1e5b54f25c_cretae_phone_number_for_user_column",
+        "description": "TodoApp.alembic.versions.bb1e5b54f25c_cretae_phone_number_for_user_column",
+        "peekOfCode": "def upgrade() -> None:\n    op.add_column('users', sa.Column('phone_number', sa.String(length=15), nullable=True))\ndef downgrade() -> None:\n    op.drop_column('users', 'phone_number')",
+        "detail": "TodoApp.alembic.versions.bb1e5b54f25c_cretae_phone_number_for_user_column",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "TodoApp.alembic.versions.bb1e5b54f25c_cretae_phone_number_for_user_column",
+        "description": "TodoApp.alembic.versions.bb1e5b54f25c_cretae_phone_number_for_user_column",
+        "peekOfCode": "def downgrade() -> None:\n    op.drop_column('users', 'phone_number')",
+        "detail": "TodoApp.alembic.versions.bb1e5b54f25c_cretae_phone_number_for_user_column",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "TodoApp.alembic.env",
+        "description": "TodoApp.alembic.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "TodoApp.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "TodoApp.alembic.env",
+        "description": "TodoApp.alembic.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "TodoApp.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "TodoApp.alembic.env",
+        "description": "TodoApp.alembic.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\ntarget_metadata = models.Base.metadata\n# other values from the config, defined by the needs of env.py,",
+        "detail": "TodoApp.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "TodoApp.alembic.env",
+        "description": "TodoApp.alembic.env",
+        "peekOfCode": "target_metadata = models.Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "TodoApp.alembic.env",
         "documentation": {}
     },
     {
@@ -569,7 +688,7 @@
         "kind": 6,
         "importPath": "TodoApp.routers.auth",
         "description": "TodoApp.routers.auth",
-        "peekOfCode": "class CreateUserRequest(BaseModel):\n    username: str\n    password: str\n    email: str\n    first_name: str\n    last_name: str\n    role: str\nclass Token(BaseModel):\n    access_token: str\n    token_type: str",
+        "peekOfCode": "class CreateUserRequest(BaseModel):\n    username: str\n    password: str\n    email: str\n    first_name: str\n    last_name: str\n    role: str\n    phone_number: str\nclass Token(BaseModel):\n    access_token: str",
         "detail": "TodoApp.routers.auth",
         "documentation": {}
     },
@@ -641,7 +760,7 @@
         "kind": 5,
         "importPath": "TodoApp.routers.auth",
         "description": "TodoApp.routers.auth",
-        "peekOfCode": "bcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_bearer = OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateUserRequest(BaseModel):\n    username: str\n    password: str\n    email: str\n    first_name: str\n    last_name: str\n    role: str\nclass Token(BaseModel):",
+        "peekOfCode": "bcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_bearer = OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateUserRequest(BaseModel):\n    username: str\n    password: str\n    email: str\n    first_name: str\n    last_name: str\n    role: str\n    phone_number: str",
         "detail": "TodoApp.routers.auth",
         "documentation": {}
     },
@@ -650,7 +769,7 @@
         "kind": 5,
         "importPath": "TodoApp.routers.auth",
         "description": "TodoApp.routers.auth",
-        "peekOfCode": "oauth2_bearer = OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateUserRequest(BaseModel):\n    username: str\n    password: str\n    email: str\n    first_name: str\n    last_name: str\n    role: str\nclass Token(BaseModel):\n    access_token: str",
+        "peekOfCode": "oauth2_bearer = OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateUserRequest(BaseModel):\n    username: str\n    password: str\n    email: str\n    first_name: str\n    last_name: str\n    role: str\n    phone_number: str\nclass Token(BaseModel):",
         "detail": "TodoApp.routers.auth",
         "documentation": {}
     },
@@ -713,7 +832,7 @@
         "kind": 6,
         "importPath": "TodoApp.routers.users",
         "description": "TodoApp.routers.users",
-        "peekOfCode": "class UserVerification(BaseModel):\n    password: str\n    new_password: str = Field(min_length=6)\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_user(user: user_dependency, db: db_dependency):\n    if user is None:\n        raise HTTPException(status_code=401, detail=\"Authentication Failed!\")\n    return db.query(Users).filter(Users.id == user.get(\"id\")).first()\n@router.put(\"/password\", status_code=status.HTTP_204_NO_CONTENT)\nasync def change_password(user: user_dependency, db: db_dependency, user_verification: UserVerification):",
+        "peekOfCode": "class UserVerification(BaseModel):\n    password: str\n    new_password: str = Field(min_length=6)\n# class PhoneVerification(BaseModel):\n#     phone_number = str\n#     new_phone_number: str = Field(min_length=10, max_length=15)\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_user(user: user_dependency, db: db_dependency):\n    if user is None:\n        raise HTTPException(status_code=401, detail=\"Authentication Failed!\")",
         "detail": "TodoApp.routers.users",
         "documentation": {}
     },
@@ -740,7 +859,7 @@
         "kind": 5,
         "importPath": "TodoApp.routers.users",
         "description": "TodoApp.routers.users",
-        "peekOfCode": "db_dependency = Annotated[Session, Depends(get_db)]\nuser_dependency = Annotated[dict, Depends(get_current_user)]\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass UserVerification(BaseModel):\n    password: str\n    new_password: str = Field(min_length=6)\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_user(user: user_dependency, db: db_dependency):\n    if user is None:\n        raise HTTPException(status_code=401, detail=\"Authentication Failed!\")",
+        "peekOfCode": "db_dependency = Annotated[Session, Depends(get_db)]\nuser_dependency = Annotated[dict, Depends(get_current_user)]\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass UserVerification(BaseModel):\n    password: str\n    new_password: str = Field(min_length=6)\n# class PhoneVerification(BaseModel):\n#     phone_number = str\n#     new_phone_number: str = Field(min_length=10, max_length=15)\n@router.get(\"/\", status_code=status.HTTP_200_OK)",
         "detail": "TodoApp.routers.users",
         "documentation": {}
     },
@@ -749,7 +868,7 @@
         "kind": 5,
         "importPath": "TodoApp.routers.users",
         "description": "TodoApp.routers.users",
-        "peekOfCode": "user_dependency = Annotated[dict, Depends(get_current_user)]\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass UserVerification(BaseModel):\n    password: str\n    new_password: str = Field(min_length=6)\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_user(user: user_dependency, db: db_dependency):\n    if user is None:\n        raise HTTPException(status_code=401, detail=\"Authentication Failed!\")\n    return db.query(Users).filter(Users.id == user.get(\"id\")).first()",
+        "peekOfCode": "user_dependency = Annotated[dict, Depends(get_current_user)]\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass UserVerification(BaseModel):\n    password: str\n    new_password: str = Field(min_length=6)\n# class PhoneVerification(BaseModel):\n#     phone_number = str\n#     new_phone_number: str = Field(min_length=10, max_length=15)\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_user(user: user_dependency, db: db_dependency):",
         "detail": "TodoApp.routers.users",
         "documentation": {}
     },
@@ -758,7 +877,7 @@
         "kind": 5,
         "importPath": "TodoApp.routers.users",
         "description": "TodoApp.routers.users",
-        "peekOfCode": "bcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass UserVerification(BaseModel):\n    password: str\n    new_password: str = Field(min_length=6)\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_user(user: user_dependency, db: db_dependency):\n    if user is None:\n        raise HTTPException(status_code=401, detail=\"Authentication Failed!\")\n    return db.query(Users).filter(Users.id == user.get(\"id\")).first()\n@router.put(\"/password\", status_code=status.HTTP_204_NO_CONTENT)",
+        "peekOfCode": "bcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass UserVerification(BaseModel):\n    password: str\n    new_password: str = Field(min_length=6)\n# class PhoneVerification(BaseModel):\n#     phone_number = str\n#     new_phone_number: str = Field(min_length=10, max_length=15)\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_user(user: user_dependency, db: db_dependency):\n    if user is None:",
         "detail": "TodoApp.routers.users",
         "documentation": {}
     },
